@@ -1,0 +1,3 @@
+[submodule "rpp-sidebar"]
+	path = rpp-sidebar
+	url = https://github.com/tgiardina/rpp-sidebar.git
