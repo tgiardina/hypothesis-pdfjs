@@ -53,7 +53,7 @@ document.addEventListener('webviewerloaded', function(event) {
 
     // Load the Hypothesis client.
     var embedScript = document.createElement('script');
-    embedScript.src = 'https://hypothes.is/embed.js';
+    embedScript.src = 'http://localhost:3001/hypothesis';
     document.body.appendChild(embedScript);
   });
 });
